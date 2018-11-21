@@ -4,10 +4,14 @@
     <e p="C:\Users\KTPL-DES-29\.Rider2018.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\KTPL-DES-29\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_UnityMVC.1549982257.00" t="ExcludeRecursive" />
     <e p="D:\Documents\Documents\GitRepos\UnityMVC" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="UnityMVC" t="Include">
           <e p="_Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="TrackEditor.cs" t="Include" />
+            </e>
             <e p="Models" t="Include">
               <e p="Track.cs" t="Include" />
             </e>

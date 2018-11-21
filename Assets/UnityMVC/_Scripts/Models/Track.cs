@@ -12,7 +12,7 @@ namespace UnityMVC._Scripts.Models
 		[Range(30, 360)]public int Bpm = 120;
 		
 		//0 = left, 1 = down, 2 = up, 3 = right, -1 = empty Beat
-		public List<int> Beats;
+		[HideInInspector]public List<int> Beats;
 		
 		#region Random Data Generation
 		public static int Inputs = 4;
@@ -33,7 +33,7 @@ namespace UnityMVC._Scripts.Models
 
 		public void Randomize()
 		{
-			Beats = new List<int>();
+			InitializeTrack();
 			
 			//preRoll
 			for (int i = 0; i < _preRoll; ++i)
@@ -58,6 +58,11 @@ namespace UnityMVC._Scripts.Models
 					Beats.Add(-1);
 				}
 			}
+		}
+
+		public void InitializeTrack()
+		{
+			Beats = new List<int>();
 		}
 
 		#endregion
