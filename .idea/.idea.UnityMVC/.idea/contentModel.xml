@@ -15,6 +15,9 @@
             <e p="Models" t="Include">
               <e p="Track.cs" t="Include" />
             </e>
+            <e p="View" t="Include">
+              <e p="TrackView.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
