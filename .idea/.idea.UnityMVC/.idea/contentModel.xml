@@ -9,11 +9,17 @@
       <e p="Assets" t="Include">
         <e p="UnityMVC" t="Include">
           <e p="_Scripts" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="GameplayController.cs" t="Include" />
+            </e>
             <e p="Editor" t="Include">
               <e p="TrackEditor.cs" t="Include" />
             </e>
             <e p="Models" t="Include">
               <e p="Track.cs" t="Include" />
+            </e>
+            <e p="Test" t="Include">
+              <e p="TestScript.cs" t="Include" />
             </e>
             <e p="View" t="Include">
               <e p="TrackView.cs" t="Include" />
